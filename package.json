@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "vue-text-to-speech": "^1.0.6"
+  }
+}
