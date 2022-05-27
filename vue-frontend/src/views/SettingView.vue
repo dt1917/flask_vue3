@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card bg-secondary">
     <div class="card-body" id="font">
       <br>
       글꼴 설정
@@ -21,12 +21,13 @@
     <hr>
     <div class="card-body" id="dark">다크 모드 설정
         <br>
-        <input type="radio" id="on" value="black" v-model="dark">
+        <input type="radio" id="on" value="#121212" v-model="dark">
         <label style="margin:5%" for="on">ON</label>
         <input type="radio" id="off" value="white" v-model="dark" checked>
         <label style="margin:5%" for="off">OFF</label>
     </div>
    <button class="btn btn-dark text-white btn-lg"
+   style="font-weight:bold; font-size:30px;"
     @click="change">확인</button>
   </div>
 </template>

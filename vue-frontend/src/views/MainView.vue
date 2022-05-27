@@ -2,7 +2,7 @@
 <div id="mainView">
   <div class="container">
       <div
-        class="col-12 btn  btn-outline-secondary mt-3"
+        class="col-10 btn  btn-secondary mt-3"
         style="padding:3%; font-size:40px; font-weight:bold;"
         v-for="id in newsObjs" :key="id.id" >
         {{id.pressName}}

@@ -3,7 +3,7 @@
     <div class="mt-4 p-5" 
       v-for="dummy in dummy_title" :key="dummy.rank">
       <router-link
-        style="text-decoration:none; color:black; font-weight:bold;"
+        style="text-decoration:none; color:#7c7c7c; font-weight:bold;"
         @click="onClickRedirect()"
         :to="{name: 'FullView', query:{title:dummy.title,fullContent:JSON.stringify(dummy.fullContent)}}">
         {{dummy.title}}

@@ -9,9 +9,9 @@
       {{full_content}}
     </div>
   </div>
-      <button id="full-btn" class="btn btn-outline-secondary btn-lg">듣기</button>
-      <button id="pause" class="btn btn-outline-secondary btn-lg">일시정지</button>
-      <button id="cancel" class="btn btn-outline-secondary btn-lg">정지</button>
+      <button id="full-btn" class="btn btn-secondary btn-lg">듣기</button>
+      <button id="pause" class="btn btn-secondary btn-lg">일시정지</button>
+      <button id="cancel" class="btn btn-secondary btn-lg">정지</button>
   </div>
 </template>
 <script>
