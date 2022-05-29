@@ -5,12 +5,12 @@
         class="row mt-4 p-5 border border-secondary"
         style="padding:3%;  font-weight:bold;"
         v-for="id in newsObjs" :key="id.id" >
-        <div class="col-9 border-end" style="">
+        <div class="col-8 border-end" style="">
         {{id.pressName}}
         </div>
         <div class="col-1"></div>
            <router-link 
-            class="col-2 rounded-pill btn btn-warning btn-outline-light"
+            class="col-3 rounded-pill btn btn-warning btn-outline-light"
             style="text-decoration:none; font-size:120%; font-weight:bold; "
             @click="onClickRedirect()"
             :to="{name: 'PressView', query:{pressName:id.pressName,newsTop:JSON.stringify(id.newsTop)}}">
