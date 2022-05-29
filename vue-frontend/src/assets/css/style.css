@@ -90,14 +90,14 @@ button :hover{
 }
 
 #full-btn {
-    margin: 5vh 1vh 0 18vh;
-    font-size:150%;
+    margin: 5 auto;
+    font-size:120%;
 }
 #pause {
-    margin: 5vh 1vh 0% 0%;
-    font-size:150%;
+    margin: 5 auto;
+    font-size:120%;
 }
 #cancel {
-    margin: 5vh 1vh 0% 0%;
-    font-size:150%;}
+    margin: 5 auto;
+    font-size:120%;}
 

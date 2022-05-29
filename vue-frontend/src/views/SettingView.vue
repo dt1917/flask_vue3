@@ -14,7 +14,7 @@
         <br>
         <div class="col-12">
             <button id="minus" @click="font_size--">-</button>
-            <input v-model="font_size" placeholder="100" size="13%" style="width:60%;">%
+            <input v-model="font_size" placeholder="300" size="13%" style="width:60%;">%
             <button id="minus" @click="font_size++">+</button>
         </div>
     </div>
@@ -51,7 +51,7 @@
           if (this.font_size == ""){
             document.getElementById("bg").style.fontSize = 100 + "%";}
           else {
-            document.getElementById("bg").style.fontSize = this.font_size + "%";
+            document.getElementById("app").style.fontSize = this.font_size + "%";
           }
           if (this.dark==1){
             document.getElementById("app").style.background = "#121212";

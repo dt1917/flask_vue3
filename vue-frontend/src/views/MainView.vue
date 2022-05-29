@@ -3,9 +3,9 @@
   <div class="container">
       <div
         class="row mt-4 p-5 border border-secondary"
-        style="padding:3%; font-size:40px; font-weight:bold;"
+        style="padding:3%;  font-weight:bold;"
         v-for="id in newsObjs" :key="id.id" >
-        <div class="col-9 border-end" style="font-size:150%;">
+        <div class="col-9 border-end" style="">
         {{id.pressName}}
         </div>
         <div class="col-1"></div>
