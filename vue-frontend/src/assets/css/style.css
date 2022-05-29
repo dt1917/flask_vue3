@@ -17,18 +17,30 @@
     font-style: normal;
 }
 #app {
-    font-family:"ChosunGu"
+    font-family:"BareunDotum";
+    font-size:300%;
+    min-height:100vh;
+}
+#test {
+    text-decoration: none;
+}
+
+button :hover{
+    color:#F0E442
 }
 .setting-page {
     text-align:center;
     padding: 3%;
 }
 
+#article_name:hover{
+    color:#F0E442
+}
 #font {
     width: 50%;
     padding: 1%;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 100%;
     margin-left: 25%;
     margin-bottom: 5%;
     border-radius: 20px;
@@ -38,7 +50,7 @@
     width: 50%;
     padding: 1%;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 100%;
     margin-left: 25%;
     margin-bottom: 5%;
     border-radius: 20px;
@@ -54,14 +66,14 @@
     width: 50%;
     padding: 1%;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 100%;
     margin-left: 25%;
     margin-bottom: 5%;
     border-radius: 20px;
     text-align: center;
 }
 #ok-button {
-    font-size: 200%;
+    font-size: 100%;
     margin: 10% 0% 10% 85%;
     font-weight: bold;
     border-radius: 10px;
@@ -78,17 +90,14 @@
 }
 
 #full-btn {
-    margin: 0% 2% 10% 0%;
+    margin: 5vh 1vh 0 18vh;
+    font-size:150%;
 }
 #pause {
-    margin: 0% 2% 10% 0%;
+    margin: 5vh 1vh 0% 0%;
+    font-size:150%;
 }
 #cancel {
-    margin: 0% 2% 10% 0%;
-}
-#pressView {
-    font-size: 30px;
-}
-a {
-    color:yellow
-}
+    margin: 5vh 1vh 0% 0%;
+    font-size:150%;}
+

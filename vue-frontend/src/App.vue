@@ -1,6 +1,6 @@
 <template>
   <div class="background container" id="bg">
-    
+  <div id="test"></div>    
   <div>
     <div class="seear">  
       <router-link to="/">
@@ -13,17 +13,18 @@
     style="padding:3% 0% 5% 0%;">
 
       <div class="col-12 btn-group">
-      <div class="btn btn-outline-secondary"
-      style="font-size:30px; font-weight:bold;"
+      <div class="rounded-pill btn btn-secondary btn-outline-light border border-secondary"
+      style="font-size:100%; font-weight:bold;margin-right:5%;"
         @click="$router.back()">이전</div>
-      <div class="btn btn-outline-secondary"
-      style="font-size:30px; font-weight:bold;" 
+      <div class="rounded-pill btn btn-secondary btn-outline-light border border-secondary"
+      style="font-size:100%; font-weight:bold;" 
       @click="$router.push('/settingView')">
         설정
       </div>
       </div>
     </div>
-    <br>
+    
+  
   <router-view></router-view>
 
   </div>

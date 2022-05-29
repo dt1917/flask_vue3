@@ -2,15 +2,19 @@
 <div id="mainView">
   <div class="container">
       <div
-        class="col-10 btn  btn-secondary mt-3"
+        class="row mt-4 p-5 border border-secondary"
         style="padding:3%; font-size:40px; font-weight:bold;"
         v-for="id in newsObjs" :key="id.id" >
+        <div class="col-9 border-end" style="font-size:150%;">
         {{id.pressName}}
+        </div>
+        <div class="col-1"></div>
            <router-link 
-            style="text-decoration:none; color:black;"
+            class="col-2 rounded-pill btn btn-warning btn-outline-light"
+            style="text-decoration:none; font-size:120%; font-weight:bold; "
             @click="onClickRedirect()"
             :to="{name: 'PressView', query:{pressName:id.pressName,newsTop:JSON.stringify(id.newsTop)}}">
-            로 이동
+            이동
            </router-link>
            
       </div>
