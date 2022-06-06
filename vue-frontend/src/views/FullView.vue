@@ -18,7 +18,7 @@
     </div>
   </div> -->
       <button type="checkbox" id="full-btn" style="padding:1%;" class="rounded-pill  btn btn-warning btn-outline-light ">듣기</button>
-    <br>  <button id="pause" style="padding:1%;" class="rounded-pill  btn btn-warning btn-outline-light " >일시정지</button>
+    <br>  <button id="pause" style="padding:1%; margin:3% 0% 3% 0%" class="rounded-pill  btn btn-warning btn-outline-light " >일시정지</button>
     <br>  <button id="cancel" style="padding:1%;" class="rounded-pill  btn btn-warning btn-outline-light " >정지</button>
   </div>
 </template>
