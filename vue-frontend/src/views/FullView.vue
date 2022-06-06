@@ -30,7 +30,7 @@ import tts from '../assets/tts.js'
     data(){
       return {
         news_title: this.$route.query.title,
-        full_content:this.$route.query.fullContent,
+        full_content:JSON.stringify(this.$route.query.fullContent),
       }
     },
     created() {

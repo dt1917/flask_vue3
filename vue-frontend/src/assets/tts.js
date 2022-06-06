@@ -37,22 +37,29 @@ function speech(txt) {
   window.speechSynthesis.speak(utterThis);
 }
 var ck = false;
+var m = setInterval(function(){
+  window.speechSynthesis.pause();
+  window.speechSynthesis.resume();},2000);
 
 document.addEventListener("click", function(e) {
   if (!ck){
     if((e.target.id == "summary-btn") || (e.target.id == "full-btn")){
       window.speechSynthesis.cancel()
       speech(e.target.previousElementSibling.innerText)
+      m;
     }
   }else{
+    if((e.target.id == "summary-btn") || (e.target.id == "full-btn")){
     window.speechSynthesis.resume();
     ck = false;
+    }
   }
 })
 
 document.addEventListener("click", function(e){
     if( e.target.id == "pause"){
     window.speechSynthesis.pause();
+    clearInterval(m);
     ck=true;
     }
 })
